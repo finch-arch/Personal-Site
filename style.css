@@ -23,7 +23,8 @@
 .sidebar a {
     color: white;
     font-style: none;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
+    font-family: 'DynaPuff', cursive;
     text-decoration: none;
 }
 
@@ -120,12 +121,13 @@
 }
 
 /* Skill section */
-.headSkill{
+.headSkill {
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
     margin-left: 529px;
     margin-top: 120px;
 }
+
 .headSkill::after {
     content: "";
     display: block;
@@ -133,30 +135,82 @@
     padding-top: 1px;
     border-bottom: 2px solid #dc0b0b;
 }
-.SkillImg{
+
+.SkillImg {
     margin-top: 80px;
     margin-left: 334px;
     display: flex;
     padding-top: 2px;
     width: 50%;
 }
-.SkillImg1a{
-padding: 2px;
+
+.SkillImg1a {
+    padding: 2px;
 }
-.SkillImg img{
+
+.SkillImg img {
     margin: 2px;
     padding: 11px;
     height: 50%;
     width: 48%;
 
 }
-.card{
- border: 2px solid grey;
- border-radius: 44px;
+
+.card {
+    border: 2px solid grey;
+    border-radius: 44px;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgb(242, 231, 231);
     width: 160px;
     height: 160px;
     transition: width 0.5s, height 0.5s;
+}
+
+/* Project Section */
+.headProjects {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    margin-left: 529px;
+    margin-top: 80px;
+}
+
+.headProjects::after {
+    content: "";
+    display: block;
+    width: 60px;
+    padding-top: 1px;
+    border-bottom: 2px solid #dc0b0b;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 296px;
+    border: 2px solid grey;
+    background-color: rgb(210, 228, 238);
+    padding: 8px;
+    margin: 80px 23px;
+    border-radius: 75px;
+}
+.p1content{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    margin-top: 18px;
+}
+.conBox1 h2{
+    margin-top: 12px;
+    font-family: 'DynaPuff', cursive;
+}
+.conBox1 img{
+   width: 89%;
 }
