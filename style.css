@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(74, 72, 72);
+    color: white;
+    height: 100vh;
+    transition: transform 0.6s ease-in;
+    position: fixed;
+    opacity: 85%;
+
+}
+
+.sidebar a {
+    color: white;
+    font-style: none;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: fixed;
+}
+
+.Home {
+    background-color: white;
+
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar nav li {
+    padding: 23px 0;
+    list-style: none;
+}
+
+.sidebar nav {
+    padding: 28px;
+}
+
+.hamburger {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.close {
+    margin-left: 83px;
+}
+
+.intro {
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.IntroName {
+    font-size: 40px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.Into {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    margin-top: 9px;
+}
+
+.dp img {
+    width: 32%;
+    border-radius: 162px;
+    margin-left: 526px;
+    margin-top: -173px;
+}
+
+/* About me section */
+/* .AboutMe{
+    display: flex;
+} */
+.headAb {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    margin-left: 529px;
+    margin-top: 120px;
+
+}
+
+.headAb::after {
+    content: "";
+    display: block;
+    width: 60px;
+    padding-top: 1px;
+    border-bottom: 2px solid #dc0b0b;
+}
+
+.AboutContent {
+    margin-top: -244px;
+    margin-left: 58px;
+    margin-right: 80px;
+    width: 64%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.imgAb img {
+    width: 25%;
+    margin-left: 888px;
+}
+
+/* Skill section */
+.headSkill{
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    margin-left: 529px;
+    margin-top: 120px;
+}
+.headSkill::after {
+    content: "";
+    display: block;
+    width: 60px;
+    padding-top: 1px;
+    border-bottom: 2px solid #dc0b0b;
+}
+.SkillImg{
+    margin-top: 80px;
+    margin-left: 334px;
+    display: flex;
+    padding-top: 2px;
+    width: 50%;
+}
+.SkillImg1a{
+padding: 2px;
+}
+.SkillImg img{
+    margin: 2px;
+    padding: 11px;
+    height: 50%;
+    width: 48%;
+
+}
+.card{
+ border: 2px solid grey;
+ border-radius: 44px;
+}
+.card:hover{
+    background-color: rgb(242, 231, 231);
+    width: 160px;
+    height: 160px;
+    transition: width 0.5s, height 0.5s;
+}
