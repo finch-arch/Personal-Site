@@ -3,11 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
 
 
 * {
     margin: 0;
     padding: 0;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 .sidebar {
@@ -257,4 +262,63 @@
 .conBox3 a{
     font-family: 'DynaPuff', cursive;
     font-size: 12px;
+}
+/* Contact Section */
+
+.headContact {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    margin-left: 529px;
+    margin-top: 30px;
+    /* text-align: center; */
+}
+
+.headContact::after {
+    content: "";
+    display: block;
+    width: 60px;
+    padding-top: 1px;
+    border-bottom: 2px solid #dc0b0b;
+}
+.conContent1{
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    color: rgb(92, 89, 61);
+    margin-top: 40px;
+}
+.conContent2{
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    margin-top: 8px;
+}
+.icon  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+.icon img:hover{
+    background-color: #cfa461;
+    border-radius: 27px;
+}
+.icon1 img{
+    width: 30px;
+    padding: 5px;
+}
+.icon2 img{
+    width: 30px;
+    padding: 5px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 13px;
+    height: 20px;
+    font-family: 'Source Code Pro', monospace;
 }
