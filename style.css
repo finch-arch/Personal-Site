@@ -214,3 +214,47 @@
 .conBox1 img{
    width: 89%;
 }
+.conBox1 a{
+    font-family: 'DynaPuff', cursive;
+    font-size: 12px;
+}
+.boxes:hover {
+    background-color: rgb(242, 231, 231);
+    width: 300px;
+    height: 276px;
+    transition: width 0.5s, height 0.5s;
+}
+.p2content{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    margin-top: 18px;
+}
+.conBox2 h2{
+    margin-top: 12px;
+    font-family: 'DynaPuff', cursive;
+}
+.conBox2 img{
+   width: 89%;
+}
+.conBox2 a{
+    font-family: 'DynaPuff', cursive;
+    font-size: 12px;
+}
+
+/* 3rd box */
+.p3content{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    margin-top: 18px;
+}
+.conBox3 h2{
+    margin-top: 12px;
+    font-family: 'DynaPuff', cursive;
+}
+.conBox3 img{
+   width: 89%;
+}
+.conBox3 a{
+    font-family: 'DynaPuff', cursive;
+    font-size: 12px;
+}
