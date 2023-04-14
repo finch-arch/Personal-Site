@@ -1,0 +1,80 @@
+.intro{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: 110px 40px;
+ flex-wrap: wrap;
+}
+.intro img{
+   margin: 54px 43px;
+   width: 65%;
+}
+/* 
+About Section */
+.AboutMe{
+   display: flex;
+   flex-direction: column;
+}
+.headAb{
+   margin: -49px 107px;
+   font-size: 38px;
+}
+.AboutMe{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 110px 40px;
+   flex-wrap: wrap;
+  }
+  .imgAb img{
+     margin: 54px 43px;
+     width: 65%;
+  }
+  .AboutContent{
+   margin-top: -73px;
+  }
+  /* skills section */
+  .Skills{
+   display: flex;
+   flex-direction: column;
+}
+.headSkill{
+   margin: 44px 107px;
+   font-size: 38px;
+}
+.SkillImg{
+   margin: 45px 80px;
+}
+.card:hover{
+   background-color: rgb(242, 231, 231);
+width: 50px;
+height: 50px;
+transition: width 0.5s, height 0.5s;
+}
+.card{
+   border-radius: 28px;
+}
+/* 
+projects section */
+
+.headProjects{
+   margin: 44px 107px;
+   font-size: 38px;
+}
+.box{
+   flex-direction: column;
+}
+.boxes{
+   margin: 24px 50px;
+   width: 220px;
+}
+.boxes:hover{
+   width: 242px;
+height: 284px;
+}
+
+/* contact section */
+.headContact{
+   margin: 44px 107px;
+   font-size: 38px;
+}

@@ -85,10 +85,10 @@ html{
     margin-top: 9px;
 }
 
-.dp img {
+.intro img {
     width: 32%;
-    border-radius: 162px;
-    margin-left: 526px;
+    border-radius: 223px;
+    margin-left: 718px;
     margin-top: -173px;
 }
 
@@ -99,7 +99,7 @@ html{
 .headAb {
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
-    margin-left: 529px;
+    margin-left: 673px;
     margin-top: 120px;
 
 }
@@ -110,6 +110,7 @@ html{
     width: 60px;
     padding-top: 1px;
     border-bottom: 2px solid #dc0b0b;
+    align-items: center;
 }
 
 .AboutContent {
@@ -122,14 +123,14 @@ html{
 
 .imgAb img {
     width: 25%;
-    margin-left: 888px;
+    margin-left: 1085px;
 }
 
 /* Skill section */
 .headSkill {
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
-    margin-left: 529px;
+    margin-left: 673px;
     margin-top: 120px;
 }
 
@@ -143,7 +144,7 @@ html{
 
 .SkillImg {
     margin-top: 80px;
-    margin-left: 334px;
+    margin-left: 436px;
     display: flex;
     padding-top: 2px;
     width: 50%;
@@ -177,7 +178,7 @@ html{
 .headProjects {
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
-    margin-left: 529px;
+    margin-left: 673px;
     margin-top: 80px;
 }
 
@@ -268,7 +269,7 @@ html{
 .headContact {
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
-    margin-left: 529px;
+    margin-left: 673px;
     margin-top: 30px;
     /* text-align: center; */
 }
